@@ -577,7 +577,7 @@ const isetComData = {
             matiere: "Technologies émergentes 1",
             module: "Cloud computing",
             coefficient: 0.5,
-            credits: 1,
+            credits: 2,
           },
           {
             matiere: "Technologies émergentes 1",
