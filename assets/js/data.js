@@ -556,6 +556,18 @@ const isetComData = {
             credits: 2,
           },
           {
+            matiere: "Transversales 4",
+            module: "Business English 2",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Transversales 4",
+            module: "Management d'Entreprises",
+            coefficient: 0.5,
+            credits: 1,
+          },
+          {
             matiere: "Technologies émergentes 1",
             module: "Intelligence artificielle",
             coefficient: 1,
