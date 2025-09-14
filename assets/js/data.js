@@ -985,6 +985,18 @@ const isetComData = {
             coefficient: 1,
             credits: 2,
           },
+          {
+            matiere: "Cybersecurity Competitions",
+            module: "CSAW CTF - Capture The Flag",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Cybersecurity Competitions",
+            module: "Atelier CSAW CTF pratique",
+            coefficient: 0.5,
+            credits: 1,
+          },
         ],
       },
       STICRST: {
@@ -1090,6 +1102,18 @@ const isetComData = {
             module: "Intelligence artificielle",
             coefficient: 1,
             credits: 2,
+          },
+          {
+            matiere: "Cybersecurity Competitions",
+            module: "CSAW CTF - Capture The Flag",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Cybersecurity Competitions",
+            module: "Atelier CSAW CTF pratique",
+            coefficient: 0.5,
+            credits: 1,
           },
         ],
       },

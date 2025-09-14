@@ -205,6 +205,40 @@
       "dateAdded": "2024-01-15",
       "downloads": 230,
       "rating": 4.9
+    },
+    {
+      "id": 1005,
+      "title": "CSAW CTF - Cyber Security Awareness Week",
+      "description": "Ressources et guides pour la compétition CSAW CTF, une des plus prestigieuses compétitions de cybersécurité au monde.",
+      "type": "competition",
+      "url": "https://www.csaw.io/ctf",
+      "thumbnail": "https://www.csaw.io/assets/images/csaw-ctf-logo.png",
+      "department": "stic",
+      "semester": 5,
+      "speciality": "sécurité",
+      "category": "competition",
+      "tags": ["CTF", "Cybersécurité", "Hacking Éthique", "Compétition"],
+      "author": "CSAW Organization",
+      "dateAdded": "2024-12-20",
+      "downloads": 145,
+      "rating": 4.8
+    },
+    {
+      "id": 1006,
+      "title": "Guide CTF pour débutants",
+      "description": "Guide complet pour débuter dans les compétitions Capture The Flag avec des exercices pratiques.",
+      "type": "guide",
+      "url": "https://ctf101.org/",
+      "thumbnail": "https://ctf101.org/assets/img/ctf101-logo.png",
+      "department": "stic",
+      "semester": 5,
+      "speciality": "sécurité",
+      "category": "guide",
+      "tags": ["CTF", "Débutant", "Cybersécurité", "Pratique"],
+      "author": "CTF101 Team",
+      "dateAdded": "2024-12-20",
+      "downloads": 89,
+      "rating": 4.6
     }
 
     
