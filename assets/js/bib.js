@@ -4,7 +4,7 @@ const itemsPerPage = 8; // Changed from 9 to 4
 
 async function loadResources() {
     try {
-        const response = await fetch('https://saleheddinetouil.github.io/moyenne-isetcom/assets/js/resources.json');
+        const response = await fetch('assets/js/resources.json');
         const data = await response.json();
         resources = data.resources;
         displayResources(resources);
