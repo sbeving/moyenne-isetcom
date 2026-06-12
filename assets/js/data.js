@@ -231,6 +231,12 @@ const isetComData = {
             credits: 2,
           },
           {
+            matiere: "Initiation aux technologies informatiques",
+            module: "Introduction aux réseaux informatiques",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
             matiere: "Mathématique et économie",
             module: "Economie générale",
             coefficient: 1,
@@ -265,6 +271,24 @@ const isetComData = {
             module: "Principes de gestion",
             coefficient: 1.5,
             credits: 3,
+          },
+          {
+            matiere: "Conception et réalisation des TIC 1",
+            module: "Systèmes d'exploitation",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Conception et réalisation des TIC 1",
+            module: "Algorithmique et structure de données",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Conception et réalisation des TIC 1",
+            module: "Atelier programmation systèmes d'exploitation",
+            coefficient: 0.5,
+            credits: 1,
           },
         ],
         "Semestre 2": [
@@ -576,7 +600,7 @@ const isetComData = {
           {
             matiere: "Technologies émergentes 1",
             module: "Cloud computing",
-            coefficient: 0.5,
+            coefficient: 1,
             credits: 2,
           },
           {
@@ -610,6 +634,12 @@ const isetComData = {
           {
             matiere: "Systèmes d'opérateurs",
             module: "Réseaux intelligents et NGN",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Systèmes d'opérateurs",
+            module: "Réseaux étendus d'opérateurs",
             coefficient: 1,
             credits: 2,
           },
@@ -652,6 +682,18 @@ const isetComData = {
           {
             matiere: "Transversales 4",
             module: "Préparation à l'embauche 1",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Transversales 4",
+            module: "Business English 2",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Transversales 4",
+            module: "Management d'entreprises",
             coefficient: 1,
             credits: 2,
           },
@@ -734,7 +776,7 @@ const isetComData = {
           {
             matiere: "Conception et réalisation des TIC 3",
             module: "Atelier Programmation orientée objet",
-            coefficient: 0.5,
+            coefficient: 1,
             credits: 2,
           },
           {
@@ -763,7 +805,7 @@ const isetComData = {
           },
           {
             matiere: "Pratiques Managériales",
-            module: "Lean Management",
+            module: "Gestion de temps",
             coefficient: 1,
             credits: 2,
           },
@@ -838,7 +880,7 @@ const isetComData = {
           {
             matiere: "Conception et réalisation des TIC4",
             module: "Atelier conception orientée objet",
-            coefficient: 0.5,
+            coefficient: 1,
             credits: 2,
           },
           {
@@ -986,6 +1028,26 @@ const isetComData = {
             credits: 2,
           },
         ],
+        "Semestre 6": [
+          {
+            matiere: "Stages",
+            module: "Stage initiation",
+            coefficient: 2.5,
+            credits: 5,
+          },
+          {
+            matiere: "Stages",
+            module: "Stage perfectionnement",
+            coefficient: 2.5,
+            credits: 5,
+          },
+          {
+            matiere: "Stages",
+            module: "Stage de fin de parcours",
+            coefficient: 10,
+            credits: 20,
+          },
+        ],
       },
       STICRST: {
         "Semestre 5": [
@@ -1090,6 +1152,26 @@ const isetComData = {
             module: "Intelligence artificielle",
             coefficient: 1,
             credits: 2,
+          },
+        ],
+        "Semestre 6": [
+          {
+            matiere: "Stages",
+            module: "Stage initiation",
+            coefficient: 2.5,
+            credits: 5,
+          },
+          {
+            matiere: "Stages",
+            module: "Stage perfectionnement",
+            coefficient: 2.5,
+            credits: 5,
+          },
+          {
+            matiere: "Stages",
+            module: "Stage de fin de parcours",
+            coefficient: 10,
+            credits: 20,
           },
         ],
       },
@@ -1197,6 +1279,242 @@ const isetComData = {
             module: "Intelligence artificielle",
             coefficient: 1,
             credits: 2,
+          },
+        ],
+        "Semestre 6": [
+          {
+            matiere: "Stages",
+            module: "Stage initiation",
+            coefficient: 2.5,
+            credits: 5,
+          },
+          {
+            matiere: "Stages",
+            module: "Stage perfectionnement",
+            coefficient: 2.5,
+            credits: 5,
+          },
+          {
+            matiere: "Stages",
+            module: "Stage de fin de parcours",
+            coefficient: 10,
+            credits: 20,
+          },
+        ],
+      },
+    },
+    Master: {
+      MASTER: {
+        "Semestre 1": [
+          {
+            matiere: "Sécurité des systèmes émergents 1",
+            module: "Analyse et gestion des risques",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Sécurité des systèmes émergents 1",
+            module: "Initiation à la sécurité",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Management Digital 1",
+            module: "Transformation digitale",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Management Digital 1",
+            module: "Management des projets SI 1",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Systèmes Communiquants pour la récolte de données",
+            module: "5G",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Systèmes Communiquants pour la récolte de données",
+            module: "IoT et services",
+            coefficient: 2,
+            credits: 4,
+          },
+          {
+            matiere: "Analyse et Processing des Systèmes émergents",
+            module: "Optimisation et recherche opérationnelle",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Analyse et Processing des Systèmes émergents",
+            module: "Analyse des données",
+            coefficient: 2,
+            credits: 4,
+          },
+          {
+            matiere: "Développement des compétences 1",
+            module: "Business english",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Développement des compétences 1",
+            module: "Protection des données personnelles et de l'innovation",
+            coefficient: 1,
+            credits: 2,
+          },
+        ],
+        "Semestre 2": [
+          {
+            matiere: "Sécurité des systèmes émergents 2",
+            module: "Audit et test de pénétration",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Sécurité des systèmes émergents 2",
+            module: "Préparation à la certification CEH",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Management Digital 2",
+            module: "Gouvernance des systèmes d'information",
+            coefficient: 1.75,
+            credits: 3,
+          },
+          {
+            matiere: "Management Digital 2",
+            module: "Management des Systèmes d'Information 2",
+            coefficient: 1.75,
+            credits: 3,
+          },
+          {
+            matiere: "Intelligence et Cloud 1",
+            module: "Cloud 1",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Intelligence et Cloud 1",
+            module: "Intelligence Artificielle 1",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Analyse et Processing des Systèmes émergents 2",
+            module: "Plateformes et systèmes répartis pour le Big Data",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Analyse et Processing des Systèmes émergents 2",
+            module: "Atelier Apache Hadoop et Spark",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Développement des compétences 2",
+            module: "Business & Technology english 2",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Développement des compétences 2",
+            module: "Développement personnel",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Séminaire : Veille technologique",
+            module: "Séminaire",
+            coefficient: 2,
+            credits: 4,
+          },
+        ],
+        "Semestre 3": [
+          {
+            matiere: "Sécurité des systèmes émergents 3",
+            module: "Préparation à la certification CCNA CyberOps",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Sécurité des systèmes émergents 3",
+            module: "Investigation Numérique",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Management Digital 3",
+            module: "Management des projets SI 3 : Méthodologie Agile",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Management Digital 3",
+            module: "Marketing Digital",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Intelligence et Cloud 2",
+            module: "Intelligence Artificielle 2",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Intelligence et Cloud 2",
+            module: "Cloud 2",
+            coefficient: 1.5,
+            credits: 3,
+          },
+          {
+            matiere: "Analyse et Processing des Systèmes émergents 3",
+            module: "Atelier informatique décisionnelle",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Analyse et Processing des Systèmes émergents 3",
+            module: "Informatique décisionnelle",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Développement des compétences 3",
+            module: "Atelier Entreprenariat",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Développement des compétences 3",
+            module: "Préparation TCF",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Méthodologie de recherche",
+            module: "Projet tutoré",
+            coefficient: 1,
+            credits: 2,
+          },
+          {
+            matiere: "Méthodologie de recherche",
+            module: "Méthodes de recherche",
+            coefficient: 1,
+            credits: 2,
+          },
+        ],
+        "Semestre 4": [
+          {
+            matiere: "Activité pratique",
+            module: "Mémoire de recherche ou mémoire de stage",
+            coefficient: 15,
+            credits: 30,
           },
         ],
       },
